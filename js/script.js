@@ -78,7 +78,7 @@ const quotes = [
  * `getRandomQuote` function
 ***/
 function getRandomQuote (array) {
-  let randomIndex = Math.floor(Math.random() * 10);    //create random index
+  let randomIndex = Math.floor(Math.random() * quotes.length);    //create random index
   let randomQuote = array[randomIndex];                //Get random quote object from quote array
   return randomQuote;
   
